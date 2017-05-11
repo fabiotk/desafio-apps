@@ -20,6 +20,15 @@
 		4E04A38F1EC51D9B00BC2548 /* Conteudo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E04A38E1EC51D9B00BC2548 /* Conteudo.m */; };
 		4E04A3921EC51EA800BC2548 /* Secao.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E04A3911EC51EA800BC2548 /* Secao.m */; };
 		4E04A3981EC51EEB00BC2548 /* Imagem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E04A3971EC51EEB00BC2548 /* Imagem.m */; };
+		4E04A39C1EC522CD00BC2548 /* APINoticias.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E04A39B1EC522CD00BC2548 /* APINoticias.m */; };
+		4E04A3A21EC5247D00BC2548 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E04A39E1EC5247D00BC2548 /* AFNetworking.framework */; };
+		4E04A3A31EC5247D00BC2548 /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E04A39E1EC5247D00BC2548 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4E04A3A41EC5247D00BC2548 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E04A39F1EC5247D00BC2548 /* OCMock.framework */; };
+		4E04A3A51EC5247D00BC2548 /* OCMock.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E04A39F1EC5247D00BC2548 /* OCMock.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4E04A3A61EC5247D00BC2548 /* PINCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E04A3A01EC5247D00BC2548 /* PINCache.framework */; };
+		4E04A3A71EC5247D00BC2548 /* PINCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E04A3A01EC5247D00BC2548 /* PINCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4E04A3A81EC5247D00BC2548 /* PINRemoteImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E04A3A11EC5247D00BC2548 /* PINRemoteImage.framework */; };
+		4E04A3A91EC5247D00BC2548 /* PINRemoteImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E04A3A11EC5247D00BC2548 /* PINRemoteImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +47,23 @@
 			remoteInfo = Desafio;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4E04A3AA1EC5247D00BC2548 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4E04A3A51EC5247D00BC2548 /* OCMock.framework in Embed Frameworks */,
+				4E04A3A31EC5247D00BC2548 /* AFNetworking.framework in Embed Frameworks */,
+				4E04A3A91EC5247D00BC2548 /* PINRemoteImage.framework in Embed Frameworks */,
+				4E04A3A71EC5247D00BC2548 /* PINCache.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4E04A34E1EC5184300BC2548 /* Desafio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Desafio.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +91,12 @@
 		4E04A3911EC51EA800BC2548 /* Secao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Secao.m; sourceTree = "<group>"; };
 		4E04A3961EC51EEB00BC2548 /* Imagem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Imagem.h; sourceTree = "<group>"; };
 		4E04A3971EC51EEB00BC2548 /* Imagem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Imagem.m; sourceTree = "<group>"; };
+		4E04A39A1EC522CD00BC2548 /* APINoticias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APINoticias.h; sourceTree = "<group>"; };
+		4E04A39B1EC522CD00BC2548 /* APINoticias.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APINoticias.m; sourceTree = "<group>"; };
+		4E04A39E1EC5247D00BC2548 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
+		4E04A39F1EC5247D00BC2548 /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMock.framework; path = Carthage/Build/iOS/OCMock.framework; sourceTree = "<group>"; };
+		4E04A3A01EC5247D00BC2548 /* PINCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINCache.framework; path = Carthage/Build/iOS/PINCache.framework; sourceTree = "<group>"; };
+		4E04A3A11EC5247D00BC2548 /* PINRemoteImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINRemoteImage.framework; path = Carthage/Build/iOS/PINRemoteImage.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +104,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E04A3A41EC5247D00BC2548 /* OCMock.framework in Frameworks */,
+				4E04A3A21EC5247D00BC2548 /* AFNetworking.framework in Frameworks */,
+				4E04A3A81EC5247D00BC2548 /* PINRemoteImage.framework in Frameworks */,
+				4E04A3A61EC5247D00BC2548 /* PINCache.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +135,7 @@
 				4E04A3501EC5184300BC2548 /* Desafio */,
 				4E04A36A1EC5184300BC2548 /* DesafioTests */,
 				4E04A3751EC5184300BC2548 /* DesafioUITests */,
+				4E04A39D1EC5244F00BC2548 /* Frameworks */,
 				4E04A34F1EC5184300BC2548 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,11 +153,12 @@
 		4E04A3501EC5184300BC2548 /* Desafio */ = {
 			isa = PBXGroup;
 			children = (
+				4E04A3991EC5227F00BC2548 /* API */,
 				4E04A3841EC5185200BC2548 /* Controller */,
-				4E04A35A1EC5184300BC2548 /* Main.storyboard */,
 				4E04A3881EC51CF400BC2548 /* Model */,
 				4E04A3891EC51D1200BC2548 /* Resource */,
 				4E04A3511EC5184300BC2548 /* Supporting Files */,
+				4E04A3AB1EC52A8800BC2548 /* View */,
 			);
 			path = Desafio;
 			sourceTree = "<group>";
@@ -187,6 +225,34 @@
 			name = Resource;
 			sourceTree = "<group>";
 		};
+		4E04A3991EC5227F00BC2548 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4E04A39A1EC522CD00BC2548 /* APINoticias.h */,
+				4E04A39B1EC522CD00BC2548 /* APINoticias.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		4E04A39D1EC5244F00BC2548 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E04A39E1EC5247D00BC2548 /* AFNetworking.framework */,
+				4E04A39F1EC5247D00BC2548 /* OCMock.framework */,
+				4E04A3A01EC5247D00BC2548 /* PINCache.framework */,
+				4E04A3A11EC5247D00BC2548 /* PINRemoteImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E04A3AB1EC52A8800BC2548 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E04A35A1EC5184300BC2548 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -197,6 +263,7 @@
 				4E04A34A1EC5184300BC2548 /* Sources */,
 				4E04A34B1EC5184300BC2548 /* Frameworks */,
 				4E04A34C1EC5184300BC2548 /* Resources */,
+				4E04A3AA1EC5247D00BC2548 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -325,6 +392,7 @@
 				4E04A3561EC5184300BC2548 /* AppDelegate.m in Sources */,
 				4E04A38C1EC51D5600BC2548 /* Capa.m in Sources */,
 				4E04A3981EC51EEB00BC2548 /* Imagem.m in Sources */,
+				4E04A39C1EC522CD00BC2548 /* APINoticias.m in Sources */,
 				4E04A3921EC51EA800BC2548 /* Secao.m in Sources */,
 				4E04A38F1EC51D9B00BC2548 /* Conteudo.m in Sources */,
 				4E04A3531EC5184300BC2548 /* main.m in Sources */,
@@ -478,6 +546,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Desafio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = InfoGlobo.Desafio;
@@ -489,6 +561,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Desafio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = InfoGlobo.Desafio;

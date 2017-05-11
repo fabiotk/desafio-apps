@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 
-#import "Capa.h"
+#import "APINoticias.h"
 
 @interface AppDelegate ()
 
@@ -18,14 +18,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    APINoticias *api = [[APINoticias alloc] init];
+    [api fetchCapa:^(Capa *capa) {
+        
+    } errorBlock:^{
+        
+    }];
+    
+    
     // Override point for customization after application launch.
-    
-    Capa *capa = [[Capa alloc] init];
-    
-    property_getName(objc_property_t capa.conteudos)
-    
-    NSLog(@"log = %@", property_getName(capa.conteudos);
-    
     return YES;
 }
 

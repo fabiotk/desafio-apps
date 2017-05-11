@@ -15,8 +15,8 @@
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary {
     self = [super init];
     if (self) {
-        self.capa = [dictionary objectForKey:@"capa"];
-        self.conteudos = [dictionary objectForKey:@"conteudos"];
+        self.capa = [dictionary objectForKey:@"produto"];
+//        self.conteudos = [dictionary objectForKey:@"conteudos"];
     }
     
     return self;
