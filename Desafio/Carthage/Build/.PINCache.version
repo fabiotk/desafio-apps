@@ -1,0 +1,24 @@
+{
+  "iOS" : [
+    {
+      "hash" : "210f5ed26dedcb4e6bd7666bbf720846645ddf2c39e90844a5fb54ff9b828ccd",
+      "name" : "PINCache"
+    }
+  ],
+  "commitish" : "2.3",
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+    {
+      "hash" : "fb0cbb930ef7ae8d35186a911a08c6250e925e66d96228d87c4c1ae304f74aee",
+      "name" : "PINCache"
+    }
+  ],
+  "Mac" : [
+    {
+      "hash" : "64d6ae38a74fc7678988d9b0564a991bdab2ce83728cb11755b807ac6841dbf4",
+      "name" : "PINCache"
+    }
+  ]
+}
