@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "Capa.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    Capa *capa = [[Capa alloc] init];
+    
+    property_getName(objc_property_t capa.conteudos)
+    
+    NSLog(@"log = %@", property_getName(capa.conteudos);
+    
     return YES;
 }
 

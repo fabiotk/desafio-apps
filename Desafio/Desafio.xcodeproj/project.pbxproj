@@ -16,6 +16,10 @@
 		4E04A36C1EC5184300BC2548 /* DesafioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E04A36B1EC5184300BC2548 /* DesafioTests.m */; };
 		4E04A3771EC5184300BC2548 /* DesafioUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E04A3761EC5184300BC2548 /* DesafioUITests.m */; };
 		4E04A3871EC51BC500BC2548 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 4E04A3861EC51BC500BC2548 /* Cartfile */; };
+		4E04A38C1EC51D5600BC2548 /* Capa.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E04A38B1EC51D5600BC2548 /* Capa.m */; };
+		4E04A38F1EC51D9B00BC2548 /* Conteudo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E04A38E1EC51D9B00BC2548 /* Conteudo.m */; };
+		4E04A3921EC51EA800BC2548 /* Secao.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E04A3911EC51EA800BC2548 /* Secao.m */; };
+		4E04A3981EC51EEB00BC2548 /* Imagem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E04A3971EC51EEB00BC2548 /* Imagem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,14 @@
 		4E04A3761EC5184300BC2548 /* DesafioUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesafioUITests.m; sourceTree = "<group>"; };
 		4E04A3781EC5184300BC2548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E04A3861EC51BC500BC2548 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		4E04A38A1EC51D5600BC2548 /* Capa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Capa.h; sourceTree = "<group>"; };
+		4E04A38B1EC51D5600BC2548 /* Capa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Capa.m; sourceTree = "<group>"; };
+		4E04A38D1EC51D9B00BC2548 /* Conteudo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conteudo.h; sourceTree = "<group>"; };
+		4E04A38E1EC51D9B00BC2548 /* Conteudo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Conteudo.m; sourceTree = "<group>"; };
+		4E04A3901EC51EA800BC2548 /* Secao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Secao.h; sourceTree = "<group>"; };
+		4E04A3911EC51EA800BC2548 /* Secao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Secao.m; sourceTree = "<group>"; };
+		4E04A3961EC51EEB00BC2548 /* Imagem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Imagem.h; sourceTree = "<group>"; };
+		4E04A3971EC51EEB00BC2548 /* Imagem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Imagem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +117,9 @@
 			isa = PBXGroup;
 			children = (
 				4E04A3841EC5185200BC2548 /* Controller */,
-				4E04A3541EC5184300BC2548 /* AppDelegate.h */,
-				4E04A3551EC5184300BC2548 /* AppDelegate.m */,
 				4E04A35A1EC5184300BC2548 /* Main.storyboard */,
+				4E04A3881EC51CF400BC2548 /* Model */,
+				4E04A3891EC51D1200BC2548 /* Resource */,
 				4E04A3511EC5184300BC2548 /* Supporting Files */,
 			);
 			path = Desafio;
@@ -116,9 +128,10 @@
 		4E04A3511EC5184300BC2548 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4E04A35D1EC5184300BC2548 /* Assets.xcassets */,
-				4E04A35F1EC5184300BC2548 /* LaunchScreen.storyboard */,
+				4E04A3541EC5184300BC2548 /* AppDelegate.h */,
+				4E04A3551EC5184300BC2548 /* AppDelegate.m */,
 				4E04A3621EC5184300BC2548 /* Info.plist */,
+				4E04A35F1EC5184300BC2548 /* LaunchScreen.storyboard */,
 				4E04A3521EC5184300BC2548 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -149,6 +162,29 @@
 				4E04A3581EC5184300BC2548 /* ViewController.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		4E04A3881EC51CF400BC2548 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E04A38A1EC51D5600BC2548 /* Capa.h */,
+				4E04A38B1EC51D5600BC2548 /* Capa.m */,
+				4E04A38D1EC51D9B00BC2548 /* Conteudo.h */,
+				4E04A38E1EC51D9B00BC2548 /* Conteudo.m */,
+				4E04A3901EC51EA800BC2548 /* Secao.h */,
+				4E04A3911EC51EA800BC2548 /* Secao.m */,
+				4E04A3961EC51EEB00BC2548 /* Imagem.h */,
+				4E04A3971EC51EEB00BC2548 /* Imagem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4E04A3891EC51D1200BC2548 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				4E04A35D1EC5184300BC2548 /* Assets.xcassets */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +323,10 @@
 			files = (
 				4E04A3591EC5184300BC2548 /* ViewController.m in Sources */,
 				4E04A3561EC5184300BC2548 /* AppDelegate.m in Sources */,
+				4E04A38C1EC51D5600BC2548 /* Capa.m in Sources */,
+				4E04A3981EC51EEB00BC2548 /* Imagem.m in Sources */,
+				4E04A3921EC51EA800BC2548 /* Secao.m in Sources */,
+				4E04A38F1EC51D9B00BC2548 /* Conteudo.m in Sources */,
 				4E04A3531EC5184300BC2548 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
