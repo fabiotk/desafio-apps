@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+@class Conteudo;
+
 @interface Capa : NSObject
 
 @property (copy, nonatomic) NSString *capa;
