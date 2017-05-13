@@ -9,11 +9,10 @@
 /* Begin PBXBuildFile section */
 		4E04A3531EC5184300BC2548 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E04A3521EC5184300BC2548 /* main.m */; };
 		4E04A3561EC5184300BC2548 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E04A3551EC5184300BC2548 /* AppDelegate.m */; };
-		4E04A3591EC5184300BC2548 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E04A3581EC5184300BC2548 /* ViewController.m */; };
+		4E04A3591EC5184300BC2548 /* NoticiasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E04A3581EC5184300BC2548 /* NoticiasViewController.m */; };
 		4E04A35C1EC5184300BC2548 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E04A35A1EC5184300BC2548 /* Main.storyboard */; };
 		4E04A35E1EC5184300BC2548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E04A35D1EC5184300BC2548 /* Assets.xcassets */; };
 		4E04A3611EC5184300BC2548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E04A35F1EC5184300BC2548 /* LaunchScreen.storyboard */; };
-		4E04A36C1EC5184300BC2548 /* DesafioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E04A36B1EC5184300BC2548 /* DesafioTests.m */; };
 		4E04A3771EC5184300BC2548 /* DesafioUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E04A3761EC5184300BC2548 /* DesafioUITests.m */; };
 		4E04A3871EC51BC500BC2548 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 4E04A3861EC51BC500BC2548 /* Cartfile */; };
 		4E04A38C1EC51D5600BC2548 /* Capa.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E04A38B1EC51D5600BC2548 /* Capa.m */; };
@@ -29,6 +28,12 @@
 		4E04A3A71EC5247D00BC2548 /* PINCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E04A3A01EC5247D00BC2548 /* PINCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4E04A3A81EC5247D00BC2548 /* PINRemoteImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E04A3A11EC5247D00BC2548 /* PINRemoteImage.framework */; };
 		4E04A3A91EC5247D00BC2548 /* PINRemoteImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E04A3A11EC5247D00BC2548 /* PINRemoteImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4EC5CF431EC670C4004BE63C /* CapaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5CF421EC670C4004BE63C /* CapaTests.m */; };
+		4EC5CF451EC6723F004BE63C /* ImagemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5CF441EC6723F004BE63C /* ImagemTests.m */; };
+		4EC5CF471EC67502004BE63C /* SecaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5CF461EC67502004BE63C /* SecaoTests.m */; };
+		4EC5CF491EC6762A004BE63C /* ConteudoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5CF481EC6762A004BE63C /* ConteudoTests.m */; };
+		4EC5CF4D1EC68844004BE63C /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E04A39F1EC5247D00BC2548 /* OCMock.framework */; };
+		4EF9AE6D1EC68E6400F7FFCB /* APITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF9AE6C1EC68E6400F7FFCB /* APITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,14 +75,13 @@
 		4E04A3521EC5184300BC2548 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E04A3541EC5184300BC2548 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4E04A3551EC5184300BC2548 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4E04A3571EC5184300BC2548 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4E04A3581EC5184300BC2548 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E04A3571EC5184300BC2548 /* NoticiasViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoticiasViewController.h; sourceTree = "<group>"; };
+		4E04A3581EC5184300BC2548 /* NoticiasViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoticiasViewController.m; sourceTree = "<group>"; };
 		4E04A35B1EC5184300BC2548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E04A35D1EC5184300BC2548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E04A3601EC5184300BC2548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E04A3621EC5184300BC2548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E04A3671EC5184300BC2548 /* DesafioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E04A36B1EC5184300BC2548 /* DesafioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesafioTests.m; sourceTree = "<group>"; };
 		4E04A36D1EC5184300BC2548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E04A3721EC5184300BC2548 /* DesafioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E04A3761EC5184300BC2548 /* DesafioUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesafioUITests.m; sourceTree = "<group>"; };
@@ -97,6 +101,11 @@
 		4E04A39F1EC5247D00BC2548 /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMock.framework; path = Carthage/Build/iOS/OCMock.framework; sourceTree = "<group>"; };
 		4E04A3A01EC5247D00BC2548 /* PINCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINCache.framework; path = Carthage/Build/iOS/PINCache.framework; sourceTree = "<group>"; };
 		4E04A3A11EC5247D00BC2548 /* PINRemoteImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINRemoteImage.framework; path = Carthage/Build/iOS/PINRemoteImage.framework; sourceTree = "<group>"; };
+		4EC5CF421EC670C4004BE63C /* CapaTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CapaTests.m; sourceTree = "<group>"; };
+		4EC5CF441EC6723F004BE63C /* ImagemTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagemTests.m; sourceTree = "<group>"; };
+		4EC5CF461EC67502004BE63C /* SecaoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecaoTests.m; sourceTree = "<group>"; };
+		4EC5CF481EC6762A004BE63C /* ConteudoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConteudoTests.m; sourceTree = "<group>"; };
+		4EF9AE6C1EC68E6400F7FFCB /* APITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APITests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EC5CF4D1EC68844004BE63C /* OCMock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,7 +188,8 @@
 		4E04A36A1EC5184300BC2548 /* DesafioTests */ = {
 			isa = PBXGroup;
 			children = (
-				4E04A36B1EC5184300BC2548 /* DesafioTests.m */,
+				4EC5CF4A1EC67DE6004BE63C /* API */,
+				4EC5CF411EC670AA004BE63C /* Model */,
 				4E04A36D1EC5184300BC2548 /* Info.plist */,
 			);
 			path = DesafioTests;
@@ -196,8 +207,8 @@
 		4E04A3841EC5185200BC2548 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				4E04A3571EC5184300BC2548 /* ViewController.h */,
-				4E04A3581EC5184300BC2548 /* ViewController.m */,
+				4E04A3571EC5184300BC2548 /* NoticiasViewController.h */,
+				4E04A3581EC5184300BC2548 /* NoticiasViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -251,6 +262,25 @@
 				4E04A35A1EC5184300BC2548 /* Main.storyboard */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		4EC5CF411EC670AA004BE63C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4EC5CF421EC670C4004BE63C /* CapaTests.m */,
+				4EC5CF441EC6723F004BE63C /* ImagemTests.m */,
+				4EC5CF461EC67502004BE63C /* SecaoTests.m */,
+				4EC5CF481EC6762A004BE63C /* ConteudoTests.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4EC5CF4A1EC67DE6004BE63C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4EF9AE6C1EC68E6400F7FFCB /* APITests.m */,
+			);
+			name = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -388,7 +418,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E04A3591EC5184300BC2548 /* ViewController.m in Sources */,
+				4E04A3591EC5184300BC2548 /* NoticiasViewController.m in Sources */,
 				4E04A3561EC5184300BC2548 /* AppDelegate.m in Sources */,
 				4E04A38C1EC51D5600BC2548 /* Capa.m in Sources */,
 				4E04A3981EC51EEB00BC2548 /* Imagem.m in Sources */,
@@ -403,7 +433,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E04A36C1EC5184300BC2548 /* DesafioTests.m in Sources */,
+				4EF9AE6D1EC68E6400F7FFCB /* APITests.m in Sources */,
+				4EC5CF431EC670C4004BE63C /* CapaTests.m in Sources */,
+				4EC5CF471EC67502004BE63C /* SecaoTests.m in Sources */,
+				4EC5CF491EC6762A004BE63C /* ConteudoTests.m in Sources */,
+				4EC5CF451EC6723F004BE63C /* ImagemTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,6 +610,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = DesafioTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = InfoGlobo.DesafioTests;
@@ -588,6 +626,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = DesafioTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = InfoGlobo.DesafioTests;
@@ -637,6 +679,7 @@
 				4E04A37D1EC5184300BC2548 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E04A37E1EC5184300BC2548 /* Build configuration list for PBXNativeTarget "DesafioTests" */ = {
 			isa = XCConfigurationList;
@@ -645,6 +688,7 @@
 				4E04A3801EC5184300BC2548 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E04A3811EC5184300BC2548 /* Build configuration list for PBXNativeTarget "DesafioUITests" */ = {
 			isa = XCConfigurationList;
@@ -653,6 +697,7 @@
 				4E04A3831EC5184300BC2548 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

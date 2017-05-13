@@ -15,6 +15,8 @@
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary {
     self = [super init];
     if (self) {
+        self.nome = [dictionary objectForKey:@"nome"];
+        self.url = [dictionary objectForKey:@"url"];
     }
     
     return self;
