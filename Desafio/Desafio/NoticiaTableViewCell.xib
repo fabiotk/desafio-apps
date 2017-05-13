@@ -45,15 +45,16 @@
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="bottomMargin" secondItem="bcf-zJ-gS1" secondAttribute="bottom" constant="4" id="12U-PV-hba"/>
+                    <constraint firstItem="bcf-zJ-gS1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" priority="999" constant="10" id="Lgg-4E-Zlo"/>
                     <constraint firstAttribute="trailingMargin" secondItem="bcf-zJ-gS1" secondAttribute="trailing" constant="10" id="P63-xs-v59"/>
                     <constraint firstItem="OEL-ie-b87" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="PJM-85-vAs"/>
                     <constraint firstItem="bcf-zJ-gS1" firstAttribute="top" secondItem="heC-Ks-pzW" secondAttribute="bottom" constant="4" id="RO4-Fr-fYn"/>
                     <constraint firstItem="heC-Ks-pzW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="Ucy-3P-TDb"/>
+                    <constraint firstItem="OEL-ie-b87" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="jtS-Tr-8Za"/>
                     <constraint firstItem="heC-Ks-pzW" firstAttribute="leading" secondItem="OEL-ie-b87" secondAttribute="trailing" constant="10" id="kaK-vk-vrW"/>
-                    <constraint firstAttribute="bottom" secondItem="OEL-ie-b87" secondAttribute="bottom" constant="10" id="lSj-yw-8te"/>
                     <constraint firstItem="bcf-zJ-gS1" firstAttribute="leading" secondItem="OEL-ie-b87" secondAttribute="trailing" constant="10" id="q0q-Bx-Sdo"/>
-                    <constraint firstItem="OEL-ie-b87" firstAttribute="top" relation="greaterThanOrEqual" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="stI-F9-6ll"/>
                     <constraint firstAttribute="trailingMargin" secondItem="heC-Ks-pzW" secondAttribute="trailing" constant="10" id="tEt-Ta-6mD"/>
+                    <constraint firstItem="heC-Ks-pzW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" priority="999" constant="10" id="x8j-A0-WQp"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
