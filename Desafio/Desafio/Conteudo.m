@@ -23,16 +23,6 @@
     }
 }
 
-- (void)initSecao:(NSDictionary *)dictionary {
-    NSMutableArray *secoes = [NSMutableArray array];
-    if ([dictionary objectForKey:@"secao"]) {
-        for (id obj in [dictionary objectForKey:@"secao"]) {
-            [secoes addObject:[[Secao alloc] initWithDictionary:obj]];
-        }
-    }
-    self.secao = secoes;
-}
-
 - (void)initVideos:(NSDictionary *)dictionary {
     if ([dictionary objectForKey:@"videos"]) {
         if ([dictionary objectForKey:@"videos"]) {
@@ -66,10 +56,9 @@
         self.titulo =  [dictionary objectForKey:@"titulo"];
         self.url = [dictionary objectForKey:@"url"];
         self.urlOriginal = [dictionary objectForKey:@"urlOriginal"];
+        self.secao = [[Secao alloc] initWithDictionary:[dictionary objectForKey:@"secao"]];
         
         [self initAutores:dictionary];
-#warning TODO FNA - Arrumar
-//        [self initSecao:dictionary];
         [self initVideos:dictionary];
         [self initImagens:dictionary];
     }

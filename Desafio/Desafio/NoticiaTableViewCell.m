@@ -8,6 +8,7 @@
 
 #import "NoticiaTableViewCell.h"
 
+#import "Secao.h"
 #import "Conteudo.h"
 #import "Imagem.h"
 
@@ -18,7 +19,7 @@
 #pragma mark - Public
 
 - (void)setup:(Conteudo *)conteudo {
-    self.secaoLabel.text = conteudo.secao.firstObject;
+    self.secaoLabel.text = conteudo.secao.nome;
     self.legendaLabel.text = conteudo.titulo;
     
     Imagem *imagem = conteudo.imagens.firstObject;

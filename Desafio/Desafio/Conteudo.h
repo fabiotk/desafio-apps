@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+@class Secao;
+
 @interface Conteudo : NSObject
 
 @property (strong, nonatomic) NSArray *autores;
@@ -18,7 +20,7 @@
 @property (copy, nonatomic) NSString *atualizadoEm;
 @property (copy, nonatomic) NSString *codigo;
 @property (copy, nonatomic) NSString *publicadoEm;
-@property (strong, nonatomic) NSArray *secao;
+@property (strong, nonatomic) Secao *secao;
 @property (copy, nonatomic) NSString *tipo;
 @property (copy, nonatomic) NSString *titulo;
 @property (copy, nonatomic) NSString *url;
