@@ -33,9 +33,13 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wQH-RZ-wDO" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="XNT-fX-hWt">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="XNT-fX-hWt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.098039215686274508" green="0.3182837392769608" blue="0.56470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

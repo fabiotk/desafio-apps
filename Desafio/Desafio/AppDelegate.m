@@ -18,15 +18,6 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    APINoticias *api = [[APINoticias alloc] init];
-    [api fetchCapa:^(Capa *capa) {
-        
-    } errorBlock:^{
-        
-    }];
-    
-    
     // Override point for customization after application launch.
     return YES;
 }
@@ -57,6 +48,5 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
 
 @end
