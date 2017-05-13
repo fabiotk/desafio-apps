@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NoticiasViewController : UIViewController
+#import "Capa.h"
 
+@interface NoticiasViewController : UITableViewController
+
+@property (strong, nonatomic) Capa *capa;
 
 @end
 

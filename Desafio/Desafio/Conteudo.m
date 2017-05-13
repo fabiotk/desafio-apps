@@ -16,8 +16,9 @@
 
 - (void)initAutores:(NSDictionary *)dictionary {
     if ([dictionary objectForKey:@"autores"]) {
-        if (dictionary.allValues.count > 0) {
-            self.autores =  dictionary.allValues;
+        NSArray *autores = [dictionary objectForKey:@"autores"];
+        if (autores.count > 0) {
+            self.autores =  autores;
         }
     }
 }
@@ -25,7 +26,7 @@
 - (void)initSecao:(NSDictionary *)dictionary {
     NSMutableArray *secoes = [NSMutableArray array];
     if ([dictionary objectForKey:@"secao"]) {
-        for (NSDictionary *obj in [dictionary objectForKey:@"secao"]) {
+        for (id obj in [dictionary objectForKey:@"secao"]) {
             [secoes addObject:[[Secao alloc] initWithDictionary:obj]];
         }
     }
@@ -67,7 +68,8 @@
         self.urlOriginal = [dictionary objectForKey:@"urlOriginal"];
         
         [self initAutores:dictionary];
-        [self initSecao:dictionary];
+#warning TODO FNA - Arrumar
+//        [self initSecao:dictionary];
         [self initVideos:dictionary];
         [self initImagens:dictionary];
     }

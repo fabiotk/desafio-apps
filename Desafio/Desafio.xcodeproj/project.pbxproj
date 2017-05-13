@@ -34,6 +34,12 @@
 		4EC5CF491EC6762A004BE63C /* ConteudoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5CF481EC6762A004BE63C /* ConteudoTests.m */; };
 		4EC5CF4D1EC68844004BE63C /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E04A39F1EC5247D00BC2548 /* OCMock.framework */; };
 		4EF9AE6D1EC68E6400F7FFCB /* APITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF9AE6C1EC68E6400F7FFCB /* APITests.m */; };
+		4EF9AE731EC699A600F7FFCB /* NoticiasViewController+DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF9AE721EC699A600F7FFCB /* NoticiasViewController+DataSource.m */; };
+		4EF9AE771EC69E3B00F7FFCB /* CapaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF9AE751EC69E3B00F7FFCB /* CapaTableViewCell.m */; };
+		4EF9AE781EC69E3B00F7FFCB /* CapaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EF9AE761EC69E3B00F7FFCB /* CapaTableViewCell.xib */; };
+		4EF9AE7C1EC69E4400F7FFCB /* NoticiaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF9AE7A1EC69E4400F7FFCB /* NoticiaTableViewCell.m */; };
+		4EF9AE7D1EC69E4400F7FFCB /* NoticiaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EF9AE7B1EC69E4400F7FFCB /* NoticiaTableViewCell.xib */; };
+		4EF9AE821EC6A0F700F7FFCB /* UITableView+Support.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF9AE811EC6A0F700F7FFCB /* UITableView+Support.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +112,16 @@
 		4EC5CF461EC67502004BE63C /* SecaoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecaoTests.m; sourceTree = "<group>"; };
 		4EC5CF481EC6762A004BE63C /* ConteudoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConteudoTests.m; sourceTree = "<group>"; };
 		4EF9AE6C1EC68E6400F7FFCB /* APITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APITests.m; sourceTree = "<group>"; };
+		4EF9AE711EC699A600F7FFCB /* NoticiasViewController+DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NoticiasViewController+DataSource.h"; sourceTree = "<group>"; };
+		4EF9AE721EC699A600F7FFCB /* NoticiasViewController+DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NoticiasViewController+DataSource.m"; sourceTree = "<group>"; };
+		4EF9AE741EC69E3B00F7FFCB /* CapaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CapaTableViewCell.h; sourceTree = "<group>"; };
+		4EF9AE751EC69E3B00F7FFCB /* CapaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CapaTableViewCell.m; sourceTree = "<group>"; };
+		4EF9AE761EC69E3B00F7FFCB /* CapaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CapaTableViewCell.xib; sourceTree = "<group>"; };
+		4EF9AE791EC69E4400F7FFCB /* NoticiaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoticiaTableViewCell.h; sourceTree = "<group>"; };
+		4EF9AE7A1EC69E4400F7FFCB /* NoticiaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticiaTableViewCell.m; sourceTree = "<group>"; };
+		4EF9AE7B1EC69E4400F7FFCB /* NoticiaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoticiaTableViewCell.xib; sourceTree = "<group>"; };
+		4EF9AE801EC6A0F700F7FFCB /* UITableView+Support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Support.h"; sourceTree = "<group>"; };
+		4EF9AE811EC6A0F700F7FFCB /* UITableView+Support.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Support.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +179,7 @@
 		4E04A3501EC5184300BC2548 /* Desafio */ = {
 			isa = PBXGroup;
 			children = (
+				4EF9AE7E1EC6A0D900F7FFCB /* Support */,
 				4E04A3991EC5227F00BC2548 /* API */,
 				4E04A3841EC5185200BC2548 /* Controller */,
 				4E04A3881EC51CF400BC2548 /* Model */,
@@ -209,6 +226,8 @@
 			children = (
 				4E04A3571EC5184300BC2548 /* NoticiasViewController.h */,
 				4E04A3581EC5184300BC2548 /* NoticiasViewController.m */,
+				4EF9AE711EC699A600F7FFCB /* NoticiasViewController+DataSource.h */,
+				4EF9AE721EC699A600F7FFCB /* NoticiasViewController+DataSource.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -259,6 +278,7 @@
 		4E04A3AB1EC52A8800BC2548 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4EF9AE831EC6A3DA00F7FFCB /* Cell */,
 				4E04A35A1EC5184300BC2548 /* Main.storyboard */,
 			);
 			name = View;
@@ -281,6 +301,36 @@
 				4EF9AE6C1EC68E6400F7FFCB /* APITests.m */,
 			);
 			name = API;
+			sourceTree = "<group>";
+		};
+		4EF9AE7E1EC6A0D900F7FFCB /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				4EF9AE7F1EC6A0DD00F7FFCB /* Category */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		4EF9AE7F1EC6A0DD00F7FFCB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4EF9AE801EC6A0F700F7FFCB /* UITableView+Support.h */,
+				4EF9AE811EC6A0F700F7FFCB /* UITableView+Support.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		4EF9AE831EC6A3DA00F7FFCB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4EF9AE741EC69E3B00F7FFCB /* CapaTableViewCell.h */,
+				4EF9AE751EC69E3B00F7FFCB /* CapaTableViewCell.m */,
+				4EF9AE761EC69E3B00F7FFCB /* CapaTableViewCell.xib */,
+				4EF9AE791EC69E4400F7FFCB /* NoticiaTableViewCell.h */,
+				4EF9AE7A1EC69E4400F7FFCB /* NoticiaTableViewCell.m */,
+				4EF9AE7B1EC69E4400F7FFCB /* NoticiaTableViewCell.xib */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -390,10 +440,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EF9AE781EC69E3B00F7FFCB /* CapaTableViewCell.xib in Resources */,
 				4E04A3611EC5184300BC2548 /* LaunchScreen.storyboard in Resources */,
 				4E04A35E1EC5184300BC2548 /* Assets.xcassets in Resources */,
 				4E04A3871EC51BC500BC2548 /* Cartfile in Resources */,
 				4E04A35C1EC5184300BC2548 /* Main.storyboard in Resources */,
+				4EF9AE7D1EC69E4400F7FFCB /* NoticiaTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,12 +470,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EF9AE7C1EC69E4400F7FFCB /* NoticiaTableViewCell.m in Sources */,
 				4E04A3591EC5184300BC2548 /* NoticiasViewController.m in Sources */,
 				4E04A3561EC5184300BC2548 /* AppDelegate.m in Sources */,
 				4E04A38C1EC51D5600BC2548 /* Capa.m in Sources */,
 				4E04A3981EC51EEB00BC2548 /* Imagem.m in Sources */,
+				4EF9AE821EC6A0F700F7FFCB /* UITableView+Support.m in Sources */,
+				4EF9AE771EC69E3B00F7FFCB /* CapaTableViewCell.m in Sources */,
 				4E04A39C1EC522CD00BC2548 /* APINoticias.m in Sources */,
 				4E04A3921EC51EA800BC2548 /* Secao.m in Sources */,
+				4EF9AE731EC699A600F7FFCB /* NoticiasViewController+DataSource.m in Sources */,
 				4E04A38F1EC51D9B00BC2548 /* Conteudo.m in Sources */,
 				4E04A3531EC5184300BC2548 /* main.m in Sources */,
 			);
