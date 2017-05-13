@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@class Conteudo;
+
 @interface NoticiaTableViewCell : UITableViewCell
+
+@property (weak, nonatomic) IBOutlet UIImageView *fotoImageView;
+@property (weak, nonatomic) IBOutlet UILabel *secaoLabel;
+@property (weak, nonatomic) IBOutlet UILabel *legendaLabel;
+
+- (void)setup:(Conteudo *)conteudo;
 
 @end

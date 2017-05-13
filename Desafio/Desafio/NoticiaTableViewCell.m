@@ -8,17 +8,22 @@
 
 #import "NoticiaTableViewCell.h"
 
+#import "Conteudo.h"
+#import "Imagem.h"
+
+#import <PINRemoteImage/PINImageView+PINRemoteImage.h>
+
 @implementation NoticiaTableViewCell
 
-- (void)awakeFromNib {
-    [super awakeFromNib];
-    // Initialization code
-}
+#pragma mark - Public
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
+- (void)setup:(Conteudo *)conteudo {
+    self.secaoLabel.text = conteudo.secao.firstObject;
+    self.legendaLabel.text = conteudo.titulo;
+    
+    Imagem *imagem = conteudo.imagens.firstObject;
+    [self.fotoImageView setPin_updateWithProgress:YES];
+    [self.fotoImageView pin_setImageFromURL:[NSURL URLWithString:imagem.url]];
 }
 
 @end
