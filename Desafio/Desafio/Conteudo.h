@@ -17,9 +17,9 @@
 @property (copy, nonatomic) NSString *subTitulo;
 @property (copy, nonatomic) NSString *texto;
 @property (strong, nonatomic) NSArray *videos;
-@property (copy, nonatomic) NSString *atualizadoEm;
+@property (copy, nonatomic) NSDate *atualizadoEm;
 @property (copy, nonatomic) NSString *codigo;
-@property (copy, nonatomic) NSString *publicadoEm;
+@property (copy, nonatomic) NSDate *publicadoEm;
 @property (strong, nonatomic) Secao *secao;
 @property (copy, nonatomic) NSString *tipo;
 @property (copy, nonatomic) NSString *titulo;

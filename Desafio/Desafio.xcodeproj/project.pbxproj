@@ -33,6 +33,7 @@
 		4E2434841EC8974F0088EBF1 /* NoticiasViewController+Delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2434831EC8974F0088EBF1 /* NoticiasViewController+Delegate.m */; };
 		4E2434891EC89E4B0088EBF1 /* NoticiaDetailViewController+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2434881EC89E4B0088EBF1 /* NoticiaDetailViewController+View.m */; };
 		4E24348C1EC8BA780088EBF1 /* NoticiaDetailViewController+Handler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E24348B1EC8BA780088EBF1 /* NoticiaDetailViewController+Handler.m */; };
+		4E24348F1EC8BF480088EBF1 /* NSDate+Support.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E24348E1EC8BF480088EBF1 /* NSDate+Support.m */; };
 		4EC5CF431EC670C4004BE63C /* CapaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5CF421EC670C4004BE63C /* CapaTests.m */; };
 		4EC5CF451EC6723F004BE63C /* ImagemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5CF441EC6723F004BE63C /* ImagemTests.m */; };
 		4EC5CF471EC67502004BE63C /* SecaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5CF461EC67502004BE63C /* SecaoTests.m */; };
@@ -123,6 +124,8 @@
 		4E2434881EC89E4B0088EBF1 /* NoticiaDetailViewController+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NoticiaDetailViewController+View.m"; sourceTree = "<group>"; };
 		4E24348A1EC8BA780088EBF1 /* NoticiaDetailViewController+Handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NoticiaDetailViewController+Handler.h"; sourceTree = "<group>"; };
 		4E24348B1EC8BA780088EBF1 /* NoticiaDetailViewController+Handler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NoticiaDetailViewController+Handler.m"; sourceTree = "<group>"; };
+		4E24348D1EC8BF480088EBF1 /* NSDate+Support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Support.h"; sourceTree = "<group>"; };
+		4E24348E1EC8BF480088EBF1 /* NSDate+Support.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Support.m"; sourceTree = "<group>"; };
 		4EC5CF421EC670C4004BE63C /* CapaTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CapaTests.m; sourceTree = "<group>"; };
 		4EC5CF441EC6723F004BE63C /* ImagemTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagemTests.m; sourceTree = "<group>"; };
 		4EC5CF461EC67502004BE63C /* SecaoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecaoTests.m; sourceTree = "<group>"; };
@@ -367,6 +370,8 @@
 			children = (
 				4EF9AE801EC6A0F700F7FFCB /* UITableView+Support.h */,
 				4EF9AE811EC6A0F700F7FFCB /* UITableView+Support.m */,
+				4E24348D1EC8BF480088EBF1 /* NSDate+Support.h */,
+				4E24348E1EC8BF480088EBF1 /* NSDate+Support.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -523,6 +528,7 @@
 			files = (
 				4E2434811EC897460088EBF1 /* NoticiasViewController+Handler.m in Sources */,
 				4EF9AE7C1EC69E4400F7FFCB /* NoticiaTableViewCell.m in Sources */,
+				4E24348F1EC8BF480088EBF1 /* NSDate+Support.m in Sources */,
 				4E04A3591EC5184300BC2548 /* NoticiasViewController.m in Sources */,
 				4E04A3561EC5184300BC2548 /* AppDelegate.m in Sources */,
 				4E04A38C1EC51D5600BC2548 /* Capa.m in Sources */,

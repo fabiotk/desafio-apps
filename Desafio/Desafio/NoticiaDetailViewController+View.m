@@ -12,6 +12,7 @@
 
 #import "Secao.h"
 #import "Imagem.h"
+#import "NSDate+Support.h"
 
 @implementation NoticiaDetailViewController (View)
 
@@ -19,7 +20,7 @@
     self.title = self.model.secao.nome.uppercaseString;
     self.tituloLabel.text = self.model.titulo;
     self.subTituloLabel.text = self.model.subTitulo;
-    self.dataLabel.text = self.model.publicadoEm;
+    self.dataLabel.text = [self.model.publicadoEm stringFromDate];
     self.textoLabel.text = self.model.texto;
     [self addAutorText];
     [self addImageAndText];
@@ -27,21 +28,26 @@
 
 - (void)addAutorText {
     NSString *stringAppend = [self.model.autores.firstObject uppercaseString];
-    NSString *stringInicial = @"POR ";
     
-    NSMutableAttributedString *attrString = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@%@", stringInicial, stringAppend]];
-    
-    NSRange selectedRange = NSMakeRange(stringInicial.length, stringAppend.length);
-    
-    [attrString beginEditing];
-    
-    [attrString addAttribute:NSForegroundColorAttributeName
-                       value:[UIColor colorWithRed:27/255.0 green:147/255.0 blue:195/255.0  alpha:1]
-                       range:selectedRange];
-    
-    [attrString endEditing];
-    
-    self.autorLabel.attributedText = attrString;
+    if (stringAppend && ![stringAppend isEqualToString:@""]) {
+        NSString *stringInicial = @"POR ";
+        
+        NSMutableAttributedString *attrString = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@%@", stringInicial, stringAppend]];
+        
+        NSRange selectedRange = NSMakeRange(stringInicial.length, stringAppend.length);
+        
+        [attrString beginEditing];
+        
+        [attrString addAttribute:NSForegroundColorAttributeName
+                           value:[UIColor colorWithRed:27/255.0 green:147/255.0 blue:195/255.0  alpha:1]
+                           range:selectedRange];
+        
+        [attrString endEditing];
+        
+        self.autorLabel.attributedText = attrString;
+    } else {
+        self.autorLabel.text = @"";
+    }
 }
 
 - (void)addImageAndText {

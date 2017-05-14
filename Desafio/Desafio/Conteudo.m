@@ -9,6 +9,7 @@
 #import "Conteudo.h"
 #import "Secao.h"
 #import "Imagem.h"
+#import "NSDate+Support.h"
 
 @implementation Conteudo
 
@@ -51,7 +52,8 @@
         self.informePublicitario = [dictionary objectForKey:@"informePublicitario"];
         self.subTitulo = [dictionary objectForKey:@"subTitulo"];
         self.texto = [dictionary objectForKey:@"texto"];
-        self.atualizadoEm = [dictionary objectForKey:@"atualizadoEm"];
+        self.atualizadoEm = [NSDate dateFromString:[dictionary objectForKey:@"atualizadoEm"]];
+        self.publicadoEm = [NSDate dateFromString:[dictionary objectForKey:@"publicadoEm"]];
         self.tipo = [dictionary objectForKey:@"tipo"];
         self.titulo =  [dictionary objectForKey:@"titulo"];
         self.url = [dictionary objectForKey:@"url"];
@@ -65,5 +67,6 @@
     
     return self;
 }
+
 
 @end
