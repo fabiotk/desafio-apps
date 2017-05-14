@@ -33,7 +33,7 @@
     
     Conteudo *model = [[Conteudo alloc] init];
     model.titulo = @"Titulo";
-    model.subTitulo = @"SubTitutlo";
+    model.subTitulo = @"SubTitulo";
     model.publicadoEm = [NSDate dateFromString:@"2012-10-12"];
     model.texto = @"Lorem Ipsum";
     
