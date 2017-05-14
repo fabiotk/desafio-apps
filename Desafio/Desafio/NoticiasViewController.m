@@ -62,4 +62,25 @@
     }];
 }
 
+
+#pragma mark - Loadable
+
++ (instancetype)controllerInstanceFromStoryboard {
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main"
+                                                         bundle:[NSBundle mainBundle]];
+    
+    UIViewController *controller =
+    [storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([NoticiasViewController class])];
+    
+    if([controller isKindOfClass:[NoticiasViewController class]]) {
+        return (NoticiasViewController *)controller;
+        
+    } else {
+        NSAssert(NO, @"Não foi possível instanciar NoticiasViewController \
+                 dentro do Storyboard Main");
+        return nil;
+    }
+}
+
 @end

@@ -10,7 +10,9 @@
 
 #import "Capa.h"
 
-@interface NoticiasViewController : UITableViewController
+#import "Loadable.h"
+
+@interface NoticiasViewController : UITableViewController <Loadable>
 
 @property (strong, nonatomic) Capa *model;
 

@@ -34,6 +34,15 @@
 		4E2434891EC89E4B0088EBF1 /* NoticiaDetailViewController+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2434881EC89E4B0088EBF1 /* NoticiaDetailViewController+View.m */; };
 		4E24348C1EC8BA780088EBF1 /* NoticiaDetailViewController+Handler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E24348B1EC8BA780088EBF1 /* NoticiaDetailViewController+Handler.m */; };
 		4E24348F1EC8BF480088EBF1 /* NSDate+Support.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E24348E1EC8BF480088EBF1 /* NSDate+Support.m */; };
+		4E2434921EC8D1A10088EBF1 /* NSDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2434911EC8D1A10088EBF1 /* NSDateTests.m */; };
+		4E2434971EC8D46F0088EBF1 /* CapaTableViewCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2434961EC8D46F0088EBF1 /* CapaTableViewCellTests.m */; };
+		4E2434991EC8D62B0088EBF1 /* NoticiaTableViewCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2434981EC8D62B0088EBF1 /* NoticiaTableViewCellTests.m */; };
+		4E24349C1EC8DAEA0088EBF1 /* NoticiasViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E24349B1EC8DAEA0088EBF1 /* NoticiasViewControllerTests.m */; };
+		4E24349E1EC8DEA20088EBF1 /* NoticiasViewController+HandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E24349D1EC8DEA20088EBF1 /* NoticiasViewController+HandlerTests.m */; };
+		4E2434A11EC8EE880088EBF1 /* NoticiaDetailViewController+ViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2434A01EC8EE880088EBF1 /* NoticiaDetailViewController+ViewTests.m */; };
+		4E2434A41EC8EECE0088EBF1 /* NoticiasViewController+DataSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2434A31EC8EECE0088EBF1 /* NoticiasViewController+DataSourceTests.m */; };
+		4E2434A61EC8F03D0088EBF1 /* NoticiaDetailViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2434A51EC8F03D0088EBF1 /* NoticiaDetailViewControllerTests.m */; };
+		4E2434A81EC8F1030088EBF1 /* NoticiaDetailViewController+HandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2434A71EC8F1030088EBF1 /* NoticiaDetailViewController+HandlerTests.m */; };
 		4EC5CF431EC670C4004BE63C /* CapaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5CF421EC670C4004BE63C /* CapaTests.m */; };
 		4EC5CF451EC6723F004BE63C /* ImagemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5CF441EC6723F004BE63C /* ImagemTests.m */; };
 		4EC5CF471EC67502004BE63C /* SecaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5CF461EC67502004BE63C /* SecaoTests.m */; };
@@ -126,6 +135,15 @@
 		4E24348B1EC8BA780088EBF1 /* NoticiaDetailViewController+Handler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NoticiaDetailViewController+Handler.m"; sourceTree = "<group>"; };
 		4E24348D1EC8BF480088EBF1 /* NSDate+Support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Support.h"; sourceTree = "<group>"; };
 		4E24348E1EC8BF480088EBF1 /* NSDate+Support.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Support.m"; sourceTree = "<group>"; };
+		4E2434911EC8D1A10088EBF1 /* NSDateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateTests.m; sourceTree = "<group>"; };
+		4E2434961EC8D46F0088EBF1 /* CapaTableViewCellTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CapaTableViewCellTests.m; sourceTree = "<group>"; };
+		4E2434981EC8D62B0088EBF1 /* NoticiaTableViewCellTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticiaTableViewCellTests.m; sourceTree = "<group>"; };
+		4E24349B1EC8DAEA0088EBF1 /* NoticiasViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticiasViewControllerTests.m; sourceTree = "<group>"; };
+		4E24349D1EC8DEA20088EBF1 /* NoticiasViewController+HandlerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NoticiasViewController+HandlerTests.m"; sourceTree = "<group>"; };
+		4E2434A01EC8EE880088EBF1 /* NoticiaDetailViewController+ViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NoticiaDetailViewController+ViewTests.m"; sourceTree = "<group>"; };
+		4E2434A31EC8EECE0088EBF1 /* NoticiasViewController+DataSourceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NoticiasViewController+DataSourceTests.m"; sourceTree = "<group>"; };
+		4E2434A51EC8F03D0088EBF1 /* NoticiaDetailViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticiaDetailViewControllerTests.m; sourceTree = "<group>"; };
+		4E2434A71EC8F1030088EBF1 /* NoticiaDetailViewController+HandlerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NoticiaDetailViewController+HandlerTests.m"; sourceTree = "<group>"; };
 		4EC5CF421EC670C4004BE63C /* CapaTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CapaTests.m; sourceTree = "<group>"; };
 		4EC5CF441EC6723F004BE63C /* ImagemTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagemTests.m; sourceTree = "<group>"; };
 		4EC5CF461EC67502004BE63C /* SecaoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecaoTests.m; sourceTree = "<group>"; };
@@ -224,6 +242,9 @@
 		4E04A36A1EC5184300BC2548 /* DesafioTests */ = {
 			isa = PBXGroup;
 			children = (
+				4E24349A1EC8DAB60088EBF1 /* Controller */,
+				4E2434931EC8D39D0088EBF1 /* View */,
+				4E2434901EC8D18C0088EBF1 /* Support */,
 				4EC5CF4A1EC67DE6004BE63C /* API */,
 				4EC5CF411EC670AA004BE63C /* Model */,
 				4E04A36D1EC5184300BC2548 /* Info.plist */,
@@ -337,6 +358,52 @@
 			name = Protocol;
 			sourceTree = "<group>";
 		};
+		4E2434901EC8D18C0088EBF1 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				4E2434911EC8D1A10088EBF1 /* NSDateTests.m */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		4E2434931EC8D39D0088EBF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E2434961EC8D46F0088EBF1 /* CapaTableViewCellTests.m */,
+				4E2434981EC8D62B0088EBF1 /* NoticiaTableViewCellTests.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4E24349A1EC8DAB60088EBF1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E2434A21EC8EEA00088EBF1 /* NoticiaDetail */,
+				4E24349F1EC8EE3E0088EBF1 /* Noticias */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4E24349F1EC8EE3E0088EBF1 /* Noticias */ = {
+			isa = PBXGroup;
+			children = (
+				4E24349B1EC8DAEA0088EBF1 /* NoticiasViewControllerTests.m */,
+				4E24349D1EC8DEA20088EBF1 /* NoticiasViewController+HandlerTests.m */,
+				4E2434A31EC8EECE0088EBF1 /* NoticiasViewController+DataSourceTests.m */,
+			);
+			name = Noticias;
+			sourceTree = "<group>";
+		};
+		4E2434A21EC8EEA00088EBF1 /* NoticiaDetail */ = {
+			isa = PBXGroup;
+			children = (
+				4E2434A01EC8EE880088EBF1 /* NoticiaDetailViewController+ViewTests.m */,
+				4E2434A51EC8F03D0088EBF1 /* NoticiaDetailViewControllerTests.m */,
+				4E2434A71EC8F1030088EBF1 /* NoticiaDetailViewController+HandlerTests.m */,
+			);
+			name = NoticiaDetail;
+			sourceTree = "<group>";
+		};
 		4EC5CF411EC670AA004BE63C /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -359,8 +426,8 @@
 		4EF9AE7E1EC6A0D900F7FFCB /* Support */ = {
 			isa = PBXGroup;
 			children = (
-				4E2434861EC899B60088EBF1 /* Protocol */,
 				4EF9AE7F1EC6A0DD00F7FFCB /* Category */,
+				4E2434861EC899B60088EBF1 /* Protocol */,
 			);
 			name = Support;
 			sourceTree = "<group>";
@@ -552,8 +619,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EF9AE6D1EC68E6400F7FFCB /* APITests.m in Sources */,
+				4E24349C1EC8DAEA0088EBF1 /* NoticiasViewControllerTests.m in Sources */,
+				4E2434971EC8D46F0088EBF1 /* CapaTableViewCellTests.m in Sources */,
 				4EC5CF431EC670C4004BE63C /* CapaTests.m in Sources */,
+				4E2434A81EC8F1030088EBF1 /* NoticiaDetailViewController+HandlerTests.m in Sources */,
+				4E2434A11EC8EE880088EBF1 /* NoticiaDetailViewController+ViewTests.m in Sources */,
+				4E2434A41EC8EECE0088EBF1 /* NoticiasViewController+DataSourceTests.m in Sources */,
+				4E2434A61EC8F03D0088EBF1 /* NoticiaDetailViewControllerTests.m in Sources */,
+				4E2434991EC8D62B0088EBF1 /* NoticiaTableViewCellTests.m in Sources */,
+				4E2434921EC8D1A10088EBF1 /* NSDateTests.m in Sources */,
 				4EC5CF471EC67502004BE63C /* SecaoTests.m in Sources */,
+				4E24349E1EC8DEA20088EBF1 /* NoticiasViewController+HandlerTests.m in Sources */,
 				4EC5CF491EC6762A004BE63C /* ConteudoTests.m in Sources */,
 				4EC5CF451EC6723F004BE63C /* ImagemTests.m in Sources */,
 			);

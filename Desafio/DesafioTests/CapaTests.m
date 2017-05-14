@@ -16,15 +16,19 @@
 
 @implementation CapaTests
 
-- (void)setUp {
-    [super setUp];
+- (void)testShouldVerifyProperties {
+    //
     Capa *capa = [[Capa alloc] init];
-    #warning TODO FNA - Criar Testes
-}
-
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    NSDictionary *dictionary = @{ @"produto": @"O Globo",
+                                  @"conteudos": @[]};
+    
+    //
+    capa = [[Capa alloc] initWithDictionary:dictionary];
+    
+    //
+    XCTAssertEqualObjects(capa.capa, @"O Globo");
+    XCTAssertNotNil(capa.conteudos);
 }
 
 
