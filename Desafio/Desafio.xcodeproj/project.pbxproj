@@ -194,12 +194,12 @@
 		4E04A3451EC5184300BC2548 = {
 			isa = PBXGroup;
 			children = (
-				4E04A3861EC51BC500BC2548 /* Cartfile */,
 				4E04A3501EC5184300BC2548 /* Desafio */,
 				4E04A36A1EC5184300BC2548 /* DesafioTests */,
 				4E04A3751EC5184300BC2548 /* DesafioUITests */,
 				4E04A39D1EC5244F00BC2548 /* Frameworks */,
 				4E04A34F1EC5184300BC2548 /* Products */,
+				4E04A3861EC51BC500BC2548 /* Cartfile */,
 			);
 			sourceTree = "<group>";
 		};
@@ -216,11 +216,11 @@
 		4E04A3501EC5184300BC2548 /* Desafio */ = {
 			isa = PBXGroup;
 			children = (
-				4EF9AE7E1EC6A0D900F7FFCB /* Support */,
 				4E04A3991EC5227F00BC2548 /* API */,
 				4E04A3841EC5185200BC2548 /* Controller */,
 				4E04A3881EC51CF400BC2548 /* Model */,
 				4E04A3891EC51D1200BC2548 /* Resource */,
+				4EF9AE7E1EC6A0D900F7FFCB /* Support */,
 				4E04A3511EC5184300BC2548 /* Supporting Files */,
 				4E04A3AB1EC52A8800BC2548 /* View */,
 			);
@@ -237,16 +237,17 @@
 				4E04A3521EC5184300BC2548 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		4E04A36A1EC5184300BC2548 /* DesafioTests */ = {
 			isa = PBXGroup;
 			children = (
-				4E24349A1EC8DAB60088EBF1 /* Controller */,
-				4E2434931EC8D39D0088EBF1 /* View */,
-				4E2434901EC8D18C0088EBF1 /* Support */,
 				4EC5CF4A1EC67DE6004BE63C /* API */,
+				4E24349A1EC8DAB60088EBF1 /* Controller */,
 				4EC5CF411EC670AA004BE63C /* Model */,
+				4E2434901EC8D18C0088EBF1 /* Support */,
+				4E2434931EC8D39D0088EBF1 /* View */,
 				4E04A36D1EC5184300BC2548 /* Info.plist */,
 			);
 			path = DesafioTests;
@@ -264,10 +265,11 @@
 		4E04A3841EC5185200BC2548 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				4E24347E1EC896F70088EBF1 /* NoticiasDetail */,
 				4E24347D1EC896F30088EBF1 /* Noticias */,
+				4E24347E1EC896F70088EBF1 /* NoticiasDetail */,
 			);
 			name = Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		4E04A3881EC51CF400BC2548 /* Model */ = {
@@ -277,12 +279,13 @@
 				4E04A38B1EC51D5600BC2548 /* Capa.m */,
 				4E04A38D1EC51D9B00BC2548 /* Conteudo.h */,
 				4E04A38E1EC51D9B00BC2548 /* Conteudo.m */,
-				4E04A3901EC51EA800BC2548 /* Secao.h */,
-				4E04A3911EC51EA800BC2548 /* Secao.m */,
 				4E04A3961EC51EEB00BC2548 /* Imagem.h */,
 				4E04A3971EC51EEB00BC2548 /* Imagem.m */,
+				4E04A3901EC51EA800BC2548 /* Secao.h */,
+				4E04A3911EC51EA800BC2548 /* Secao.m */,
 			);
 			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		4E04A3891EC51D1200BC2548 /* Resource */ = {
@@ -291,6 +294,7 @@
 				4E04A35D1EC5184300BC2548 /* Assets.xcassets */,
 			);
 			name = Resource;
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		4E04A3991EC5227F00BC2548 /* API */ = {
@@ -300,6 +304,7 @@
 				4E04A39B1EC522CD00BC2548 /* APINoticias.m */,
 			);
 			name = API;
+			path = API;
 			sourceTree = "<group>";
 		};
 		4E04A39D1EC5244F00BC2548 /* Frameworks */ = {
@@ -320,34 +325,37 @@
 				4E04A35A1EC5184300BC2548 /* Main.storyboard */,
 			);
 			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		4E24347D1EC896F30088EBF1 /* Noticias */ = {
 			isa = PBXGroup;
 			children = (
-				4E04A3571EC5184300BC2548 /* NoticiasViewController.h */,
-				4E04A3581EC5184300BC2548 /* NoticiasViewController.m */,
 				4EF9AE711EC699A600F7FFCB /* NoticiasViewController+DataSource.h */,
 				4EF9AE721EC699A600F7FFCB /* NoticiasViewController+DataSource.m */,
-				4E24347F1EC897460088EBF1 /* NoticiasViewController+Handler.h */,
-				4E2434801EC897460088EBF1 /* NoticiasViewController+Handler.m */,
 				4E2434821EC8974F0088EBF1 /* NoticiasViewController+Delegate.h */,
 				4E2434831EC8974F0088EBF1 /* NoticiasViewController+Delegate.m */,
+				4E24347F1EC897460088EBF1 /* NoticiasViewController+Handler.h */,
+				4E2434801EC897460088EBF1 /* NoticiasViewController+Handler.m */,
+				4E04A3571EC5184300BC2548 /* NoticiasViewController.h */,
+				4E04A3581EC5184300BC2548 /* NoticiasViewController.m */,
 			);
 			name = Noticias;
+			path = Noticias;
 			sourceTree = "<group>";
 		};
 		4E24347E1EC896F70088EBF1 /* NoticiasDetail */ = {
 			isa = PBXGroup;
 			children = (
-				4E24347A1EC896EE0088EBF1 /* NoticiaDetailViewController.h */,
-				4E24347B1EC896EE0088EBF1 /* NoticiaDetailViewController.m */,
-				4E2434871EC89E4B0088EBF1 /* NoticiaDetailViewController+View.h */,
-				4E2434881EC89E4B0088EBF1 /* NoticiaDetailViewController+View.m */,
 				4E24348A1EC8BA780088EBF1 /* NoticiaDetailViewController+Handler.h */,
 				4E24348B1EC8BA780088EBF1 /* NoticiaDetailViewController+Handler.m */,
+				4E2434871EC89E4B0088EBF1 /* NoticiaDetailViewController+View.h */,
+				4E2434881EC89E4B0088EBF1 /* NoticiaDetailViewController+View.m */,
+				4E24347A1EC896EE0088EBF1 /* NoticiaDetailViewController.h */,
+				4E24347B1EC896EE0088EBF1 /* NoticiaDetailViewController.m */,
 			);
 			name = NoticiasDetail;
+			path = NoticiasDetail;
 			sourceTree = "<group>";
 		};
 		4E2434861EC899B60088EBF1 /* Protocol */ = {
@@ -356,6 +364,7 @@
 				4E2434851EC8985A0088EBF1 /* Loadable.h */,
 			);
 			name = Protocol;
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		4E2434901EC8D18C0088EBF1 /* Support */ = {
@@ -364,6 +373,7 @@
 				4E2434911EC8D1A10088EBF1 /* NSDateTests.m */,
 			);
 			name = Support;
+			path = Support;
 			sourceTree = "<group>";
 		};
 		4E2434931EC8D39D0088EBF1 /* View */ = {
@@ -373,6 +383,7 @@
 				4E2434981EC8D62B0088EBF1 /* NoticiaTableViewCellTests.m */,
 			);
 			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		4E24349A1EC8DAB60088EBF1 /* Controller */ = {
@@ -382,37 +393,41 @@
 				4E24349F1EC8EE3E0088EBF1 /* Noticias */,
 			);
 			name = Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		4E24349F1EC8EE3E0088EBF1 /* Noticias */ = {
 			isa = PBXGroup;
 			children = (
-				4E24349B1EC8DAEA0088EBF1 /* NoticiasViewControllerTests.m */,
-				4E24349D1EC8DEA20088EBF1 /* NoticiasViewController+HandlerTests.m */,
 				4E2434A31EC8EECE0088EBF1 /* NoticiasViewController+DataSourceTests.m */,
+				4E24349D1EC8DEA20088EBF1 /* NoticiasViewController+HandlerTests.m */,
+				4E24349B1EC8DAEA0088EBF1 /* NoticiasViewControllerTests.m */,
 			);
 			name = Noticias;
+			path = Noticias;
 			sourceTree = "<group>";
 		};
 		4E2434A21EC8EEA00088EBF1 /* NoticiaDetail */ = {
 			isa = PBXGroup;
 			children = (
+				4E2434A71EC8F1030088EBF1 /* NoticiaDetailViewController+HandlerTests.m */,
 				4E2434A01EC8EE880088EBF1 /* NoticiaDetailViewController+ViewTests.m */,
 				4E2434A51EC8F03D0088EBF1 /* NoticiaDetailViewControllerTests.m */,
-				4E2434A71EC8F1030088EBF1 /* NoticiaDetailViewController+HandlerTests.m */,
 			);
 			name = NoticiaDetail;
+			path = NoticiaDetail;
 			sourceTree = "<group>";
 		};
 		4EC5CF411EC670AA004BE63C /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				4EC5CF421EC670C4004BE63C /* CapaTests.m */,
+				4EC5CF481EC6762A004BE63C /* ConteudoTests.m */,
 				4EC5CF441EC6723F004BE63C /* ImagemTests.m */,
 				4EC5CF461EC67502004BE63C /* SecaoTests.m */,
-				4EC5CF481EC6762A004BE63C /* ConteudoTests.m */,
 			);
 			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		4EC5CF4A1EC67DE6004BE63C /* API */ = {
@@ -421,6 +436,7 @@
 				4EF9AE6C1EC68E6400F7FFCB /* APITests.m */,
 			);
 			name = API;
+			path = API;
 			sourceTree = "<group>";
 		};
 		4EF9AE7E1EC6A0D900F7FFCB /* Support */ = {
@@ -430,17 +446,19 @@
 				4E2434861EC899B60088EBF1 /* Protocol */,
 			);
 			name = Support;
+			path = Support;
 			sourceTree = "<group>";
 		};
 		4EF9AE7F1EC6A0DD00F7FFCB /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				4EF9AE801EC6A0F700F7FFCB /* UITableView+Support.h */,
-				4EF9AE811EC6A0F700F7FFCB /* UITableView+Support.m */,
 				4E24348D1EC8BF480088EBF1 /* NSDate+Support.h */,
 				4E24348E1EC8BF480088EBF1 /* NSDate+Support.m */,
+				4EF9AE801EC6A0F700F7FFCB /* UITableView+Support.h */,
+				4EF9AE811EC6A0F700F7FFCB /* UITableView+Support.m */,
 			);
 			name = Category;
+			path = Category;
 			sourceTree = "<group>";
 		};
 		4EF9AE831EC6A3DA00F7FFCB /* Cell */ = {
@@ -454,6 +472,7 @@
 				4EF9AE7B1EC69E4400F7FFCB /* NoticiaTableViewCell.xib */,
 			);
 			name = Cell;
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -665,6 +684,7 @@
 				4E04A35B1EC5184300BC2548 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		4E04A35F1EC5184300BC2548 /* LaunchScreen.storyboard */ = {
@@ -673,6 +693,7 @@
 				4E04A3601EC5184300BC2548 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -778,7 +799,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = Desafio/Info.plist;
+				INFOPLIST_FILE = "Desafio/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = InfoGlobo.Desafio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -793,7 +814,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = Desafio/Info.plist;
+				INFOPLIST_FILE = "Desafio/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = InfoGlobo.Desafio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
