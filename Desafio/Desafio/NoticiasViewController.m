@@ -55,7 +55,7 @@
 
 - (void)fetchData {
     [self.api fetchCapa:^(Capa *capa) {
-        self.capa = capa;
+        self.model = capa;
         [self.tableView reloadData];
     } errorBlock:^{
         NSLog(@"Error");

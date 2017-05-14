@@ -28,6 +28,10 @@
 		4E04A3A71EC5247D00BC2548 /* PINCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E04A3A01EC5247D00BC2548 /* PINCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4E04A3A81EC5247D00BC2548 /* PINRemoteImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E04A3A11EC5247D00BC2548 /* PINRemoteImage.framework */; };
 		4E04A3A91EC5247D00BC2548 /* PINRemoteImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E04A3A11EC5247D00BC2548 /* PINRemoteImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4E24347C1EC896EE0088EBF1 /* NoticiaDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E24347B1EC896EE0088EBF1 /* NoticiaDetailViewController.m */; };
+		4E2434811EC897460088EBF1 /* NoticiasViewController+Handler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2434801EC897460088EBF1 /* NoticiasViewController+Handler.m */; };
+		4E2434841EC8974F0088EBF1 /* NoticiasViewController+Delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2434831EC8974F0088EBF1 /* NoticiasViewController+Delegate.m */; };
+		4E2434891EC89E4B0088EBF1 /* NoticiaDetailViewController+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2434881EC89E4B0088EBF1 /* NoticiaDetailViewController+View.m */; };
 		4EC5CF431EC670C4004BE63C /* CapaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5CF421EC670C4004BE63C /* CapaTests.m */; };
 		4EC5CF451EC6723F004BE63C /* ImagemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5CF441EC6723F004BE63C /* ImagemTests.m */; };
 		4EC5CF471EC67502004BE63C /* SecaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5CF461EC67502004BE63C /* SecaoTests.m */; };
@@ -107,6 +111,15 @@
 		4E04A39F1EC5247D00BC2548 /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMock.framework; path = Carthage/Build/iOS/OCMock.framework; sourceTree = "<group>"; };
 		4E04A3A01EC5247D00BC2548 /* PINCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINCache.framework; path = Carthage/Build/iOS/PINCache.framework; sourceTree = "<group>"; };
 		4E04A3A11EC5247D00BC2548 /* PINRemoteImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINRemoteImage.framework; path = Carthage/Build/iOS/PINRemoteImage.framework; sourceTree = "<group>"; };
+		4E24347A1EC896EE0088EBF1 /* NoticiaDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoticiaDetailViewController.h; sourceTree = "<group>"; };
+		4E24347B1EC896EE0088EBF1 /* NoticiaDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticiaDetailViewController.m; sourceTree = "<group>"; };
+		4E24347F1EC897460088EBF1 /* NoticiasViewController+Handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NoticiasViewController+Handler.h"; sourceTree = "<group>"; };
+		4E2434801EC897460088EBF1 /* NoticiasViewController+Handler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NoticiasViewController+Handler.m"; sourceTree = "<group>"; };
+		4E2434821EC8974F0088EBF1 /* NoticiasViewController+Delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NoticiasViewController+Delegate.h"; sourceTree = "<group>"; };
+		4E2434831EC8974F0088EBF1 /* NoticiasViewController+Delegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NoticiasViewController+Delegate.m"; sourceTree = "<group>"; };
+		4E2434851EC8985A0088EBF1 /* Loadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Loadable.h; sourceTree = "<group>"; };
+		4E2434871EC89E4B0088EBF1 /* NoticiaDetailViewController+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NoticiaDetailViewController+View.h"; sourceTree = "<group>"; };
+		4E2434881EC89E4B0088EBF1 /* NoticiaDetailViewController+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NoticiaDetailViewController+View.m"; sourceTree = "<group>"; };
 		4EC5CF421EC670C4004BE63C /* CapaTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CapaTests.m; sourceTree = "<group>"; };
 		4EC5CF441EC6723F004BE63C /* ImagemTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagemTests.m; sourceTree = "<group>"; };
 		4EC5CF461EC67502004BE63C /* SecaoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecaoTests.m; sourceTree = "<group>"; };
@@ -224,10 +237,8 @@
 		4E04A3841EC5185200BC2548 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				4E04A3571EC5184300BC2548 /* NoticiasViewController.h */,
-				4E04A3581EC5184300BC2548 /* NoticiasViewController.m */,
-				4EF9AE711EC699A600F7FFCB /* NoticiasViewController+DataSource.h */,
-				4EF9AE721EC699A600F7FFCB /* NoticiasViewController+DataSource.m */,
+				4E24347E1EC896F70088EBF1 /* NoticiasDetail */,
+				4E24347D1EC896F30088EBF1 /* Noticias */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -284,6 +295,40 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		4E24347D1EC896F30088EBF1 /* Noticias */ = {
+			isa = PBXGroup;
+			children = (
+				4E04A3571EC5184300BC2548 /* NoticiasViewController.h */,
+				4E04A3581EC5184300BC2548 /* NoticiasViewController.m */,
+				4EF9AE711EC699A600F7FFCB /* NoticiasViewController+DataSource.h */,
+				4EF9AE721EC699A600F7FFCB /* NoticiasViewController+DataSource.m */,
+				4E24347F1EC897460088EBF1 /* NoticiasViewController+Handler.h */,
+				4E2434801EC897460088EBF1 /* NoticiasViewController+Handler.m */,
+				4E2434821EC8974F0088EBF1 /* NoticiasViewController+Delegate.h */,
+				4E2434831EC8974F0088EBF1 /* NoticiasViewController+Delegate.m */,
+			);
+			name = Noticias;
+			sourceTree = "<group>";
+		};
+		4E24347E1EC896F70088EBF1 /* NoticiasDetail */ = {
+			isa = PBXGroup;
+			children = (
+				4E24347A1EC896EE0088EBF1 /* NoticiaDetailViewController.h */,
+				4E24347B1EC896EE0088EBF1 /* NoticiaDetailViewController.m */,
+				4E2434871EC89E4B0088EBF1 /* NoticiaDetailViewController+View.h */,
+				4E2434881EC89E4B0088EBF1 /* NoticiaDetailViewController+View.m */,
+			);
+			name = NoticiasDetail;
+			sourceTree = "<group>";
+		};
+		4E2434861EC899B60088EBF1 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				4E2434851EC8985A0088EBF1 /* Loadable.h */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
 		4EC5CF411EC670AA004BE63C /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -306,6 +351,7 @@
 		4EF9AE7E1EC6A0D900F7FFCB /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				4E2434861EC899B60088EBF1 /* Protocol */,
 				4EF9AE7F1EC6A0DD00F7FFCB /* Category */,
 			);
 			name = Support;
@@ -470,15 +516,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E2434811EC897460088EBF1 /* NoticiasViewController+Handler.m in Sources */,
 				4EF9AE7C1EC69E4400F7FFCB /* NoticiaTableViewCell.m in Sources */,
 				4E04A3591EC5184300BC2548 /* NoticiasViewController.m in Sources */,
 				4E04A3561EC5184300BC2548 /* AppDelegate.m in Sources */,
 				4E04A38C1EC51D5600BC2548 /* Capa.m in Sources */,
 				4E04A3981EC51EEB00BC2548 /* Imagem.m in Sources */,
+				4E2434841EC8974F0088EBF1 /* NoticiasViewController+Delegate.m in Sources */,
+				4E24347C1EC896EE0088EBF1 /* NoticiaDetailViewController.m in Sources */,
 				4EF9AE821EC6A0F700F7FFCB /* UITableView+Support.m in Sources */,
 				4EF9AE771EC69E3B00F7FFCB /* CapaTableViewCell.m in Sources */,
 				4E04A39C1EC522CD00BC2548 /* APINoticias.m in Sources */,
 				4E04A3921EC51EA800BC2548 /* Secao.m in Sources */,
+				4E2434891EC89E4B0088EBF1 /* NoticiaDetailViewController+View.m in Sources */,
 				4EF9AE731EC699A600F7FFCB /* NoticiasViewController+DataSource.m in Sources */,
 				4E04A38F1EC51D9B00BC2548 /* Conteudo.m in Sources */,
 				4E04A3531EC5184300BC2548 /* main.m in Sources */,

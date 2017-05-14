@@ -12,7 +12,7 @@
 
 @interface NoticiasViewController : UITableViewController
 
-@property (strong, nonatomic) Capa *capa;
+@property (strong, nonatomic) Capa *model;
 
 @end
 

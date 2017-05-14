@@ -19,7 +19,7 @@
 - (void)setUp {
     [super setUp];
     Capa *capa = [[Capa alloc] init];
-    
+    #warning TODO FNA - Criar Testes
 }
 
 - (void)testExample {

@@ -23,7 +23,7 @@
     [tableView ig_registerAndReuseWithDifferentIdentifierForClass:[CapaTableViewCell class]
                                                         indexPath:indexPath];
     
-    [cell setup:[self.capa.conteudos objectAtIndex:indexPath.row]];
+    [cell setup:[self.model.conteudos objectAtIndex:indexPath.row]];
     
     return cell;
 }
@@ -34,7 +34,7 @@
     [tableView ig_registerAndReuseWithDifferentIdentifierForClass:[NoticiaTableViewCell class]
                                                         indexPath:indexPath];
     
-    [cell setup:[self.capa.conteudos objectAtIndex:indexPath.row]];
+    [cell setup:[self.model.conteudos objectAtIndex:indexPath.row]];
     
     return cell;
 }
@@ -42,7 +42,7 @@
 #pragma mark - UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.capa.conteudos.count;
+    return self.model.conteudos.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
